@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Diseño y Desarrollo Web | Versyl</title>
+        <link rel="stylesheet" crossorigin="" href="styles.css" />
+    </head>
+    <body>
+        <div id="root">
+            <div role="region" aria-label="Notifications (F8)" tabindex="-1" style="pointer-events: none;">
+                <ol tabindex="-1" class="fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px]"></ol>
+            </div>
+            <div class="min-h-screen">
+                <header class="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-lg border-b border-border">
+                    <div class="container mx-auto px-4 py-4">
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center space-x-2">
+                                <span class="text-xl font-bold text-primary">Versyl</span>
+                            </div>
+                            <nav class="hidden md:flex items-center space-x-8">
+                                <a href="index.html#home" class="text-foreground hover:text-primary transition-colors">Inicio</a>
+                                <a href="index.html#services" class="text-foreground hover:text-primary transition-colors">Servicios</a>
+                                <a href="index.html#awards" class="text-foreground hover:text-primary transition-colors">Premios</a>
+                                <a href="index.html#testimonials" class="text-foreground hover:text-primary transition-colors">Reseñas</a>
+                                <a href="index.html#contact">
+                                    <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-gradient-to-r from-primary to-purple-600 text-primary-foreground hover:shadow-lg hover:shadow-primary/25 transform hover:scale-105 transition-all duration-300 h-10 px-4 py-2">
+                                        Contacto
+                                    </button>
+                                </a>
+                            </nav>
+                            <button class="md:hidden">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu">
+                                    <line x1="4" x2="20" y1="12" y2="12"></line>
+                                    <line x1="4" x2="20" y1="6" y2="6"></line>
+                                    <line x1="4" x2="20" y1="18" y2="18"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </header>
+                <main class="pt-24">
+                    <section class="py-20 bg-gradient-to-br from-background via-background to-secondary/20">
+                        <div class="container mx-auto px-4 space-y-6">
+                            <h1 class="text-4xl font-bold leading-tight text-foreground">Diseño y Desarrollo Web que Convierte Visitas en Clientes</h1>
+                            <p class="text-lg text-muted-foreground leading-relaxed">Tu sitio web es tu mejor comercial 24/7. Para que venda de verdad necesita combinar diseño cautivador, velocidad de carga ultrarrápida y experiencias personalizadas que guíen al usuario hacia la acción. Nuestro servicio de Web Design &amp; Development transforma tu presencia digital en una máquina de conversión optimizada para cualquier dispositivo.</p>
+                        </div>
+                    </section>
+                    <section class="py-20 bg-gradient-to-b from-background to-secondary/20">
+                        <div class="container mx-auto px-4">
+                            <h2 class="text-3xl font-bold mb-8 text-center">Cómo Funciona Paso a Paso</h2>
+                            <ol class="space-y-8 list-decimal list-inside">
+                                <li>
+                                    <h3 class="font-semibold text-xl">Discovery &amp; Research</h3>
+                                    <p class="text-muted-foreground">Realizamos workshops de descubrimiento con stakeholders para alinear objetivos de negocio y público objetivo. Analizamos analítica actual, mapas de calor y benchmarks de la competencia para detectar oportunidades de UX.</p>
+                                </li>
+                                <li>
+                                    <h3 class="font-semibold text-xl">Arquitectura de Información y Wireframing</h3>
+                                    <p class="text-muted-foreground">Definimos la arquitectura de información y creamos wireframes interactivos que validamos con tests de usabilidad rápidos. Así aseguramos que cada sección responde a una necesidad concreta del usuario.</p>
+                                </li>
+                                <li>
+                                    <h3 class="font-semibold text-xl">Diseño UI Responsivo</h3>
+                                    <p class="text-muted-foreground">Nuestro equipo de diseño aplica diseño atómico y sistemas de diseño escalables. Creamos prototipos en Figma con animaciones micro‑interactivas y principios de accessibility‑first (WCAG 2.2) para garantizar inclusividad.</p>
+                                </li>
+                                <li>
+                                    <h3 class="font-semibold text-xl">Desarrollo Front‑End y Back‑End</h3>
+                                    <p class="text-muted-foreground">Desarrollamos con Jamstack (Next.js + Headless CMS) o WordPress + Gutenberg personalizado según tu caso. Optimizamos Core Web Vitals y aplicamos prácticas de clean code y CI/CD para despliegues rápidos y seguros.</p>
+                                </li>
+                                <li>
+                                    <h3 class="font-semibold text-xl">Integración de Funcionalidades de Conversión</h3>
+                                    <p class="text-muted-foreground">Implementamos formularios inteligentes, chatbots IA, checkout simplificado y personalización dinámica de contenido basados en comportamiento del usuario.</p>
+                                </li>
+                                <li>
+                                    <h3 class="font-semibold text-xl">QA, Testing y Accesibilidad</h3>
+                                    <p class="text-muted-foreground">Ejecutamos pruebas unitarias, integrales y de rendimiento, así como auditorías de accesibilidad (Axe, Lighthouse). Solo lanzamos si el sitio supera nuestro umbral de 95 / 100 en rendimiento y accesibilidad.</p>
+                                </li>
+                                <li>
+                                    <h3 class="font-semibold text-xl">Lanzamiento y Optimización Continua</h3>
+                                    <p class="text-muted-foreground">Tras el go‑live, monitorizamos con analítica avanzada y heatmaps. Ejecutamos pruebas A/B de layouts, CTAs y copys para mejorar la tasa de conversión mes a mes.</p>
+                                </li>
+                            </ol>
+                        </div>
+                    </section>
+                    <section class="py-20">
+                        <div class="container mx-auto px-4">
+                            <h2 class="text-3xl font-bold text-center mb-8">Por Qué Somos los Mejores</h2>
+                            <div class="overflow-x-auto">
+                                <table class="w-full text-left border-collapse">
+                                    <thead>
+                                        <tr class="border-b">
+                                            <th class="p-4">Ventaja Competitiva</th>
+                                            <th class="p-4">Qué Significa para Ti</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="divide-y">
+                                        <tr>
+                                            <td class="p-4">Core Web Vitals &lt;90ᵗʰ Percentile</td>
+                                            <td class="p-4">Carga ultrarrápida que mejora SEO y reduce el bounce rate</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="p-4">Diseño Centrado en Conversión (CRO)</td>
+                                            <td class="p-4">Hasta un 34 % más de leads gracias a flujos optimizados</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="p-4">Frameworks Modernos (Jamstack, Headless CMS)</td>
+                                            <td class="p-4">Escalabilidad y seguridad superiores, sin dependencias monolíticas</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="p-4">Accesibilidad Certificada</td>
+                                            <td class="p-4">Cumplimos WCAG 2.2 AA, ampliando tu alcance a todo tipo de usuarios</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="p-4">Metodología Agile &amp; CI/CD</td>
+                                            <td class="p-4">Ciclos de entrega quincenales, feedback continuo y go‑to‑market más rápido</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="py-20 bg-gradient-to-b from-background to-secondary/20">
+                        <div class="container mx-auto px-4">
+                            <h2 class="text-3xl font-bold text-center mb-8">Resultados Demostrados</h2>
+                            <ul class="space-y-4 list-disc list-inside text-muted-foreground">
+                                <li>Incremento medio del 48 % en conversión tras el rediseño de 2024 para clientes B2C.</li>
+                                <li>Hasta 1,2 s de LCP en páginas clave, mejorando posicionamiento SEO en 3‑4 puestos promedio.</li>
+                                <li>Disminución del bounce rate en un 37 % gracias a UX optimizada y tiempos de carga &lt;1 s.</li>
+                                <li>+175 % de páginas por sesión al incorporar recomendaciones de contenido personalizadas.</li>
+                                <li>Durabilidad de 4‑5 años sin rediseños mayores gracias a sistemas de diseño escalables.</li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="py-20">
+                        <div class="container mx-auto px-4 space-y-8">
+                            <h2 class="text-3xl font-bold text-center">Próximos Pasos</h2>
+                            <ul class="space-y-4 list-disc list-inside text-muted-foreground">
+                                <li>Auditoría Gratuita de tu Sitio: revisamos velocidad, UX y accesibilidad (entrega en 48 h).</li>
+                                <li>Roadmap de Diseño 90 días: wireframes, mockups y plan de desarrollo con KPIs.</li>
+                                <li>Kick‑off de Proyecto: el desarrollo empieza en menos de una semana tras la aprobación.</li>
+                            </ul>
+                            <p class="text-center text-lg text-muted-foreground">¿Listo para transformar tu presencia digital en un motor de ventas? Contáctanos y descubre cómo un sitio web de alto rendimiento puede escalar tu negocio.</p>
+                        </div>
+                    </section>
+                </main>
+            </div>
+        </div>
+    </body>
+</html>
