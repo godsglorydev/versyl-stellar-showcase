@@ -73,3 +73,25 @@ chatInput.addEventListener('keypress', e => {
     handleUserMessage();
   }
 });
+
+// Contact form submission using EmailJS
+document.addEventListener('DOMContentLoaded', () => {
+  const form = document.getElementById('contact-form');
+  if (!form) return;
+
+  emailjs.init('YOUR_PUBLIC_KEY');
+
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    emailjs
+      .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form)
+      .then(() => {
+        alert('Message sent successfully!');
+        form.reset();
+      })
+      .catch(error => {
+        console.error('EmailJS error:', error);
+        alert('Failed to send message. Please try again later.');
+      });
+  });
+});
